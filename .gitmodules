@@ -1,0 +1,3 @@
+[submodule "evie"]
+	path = evie
+	url = git@github.com:anges244/evie.git
