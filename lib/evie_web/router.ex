@@ -17,6 +17,9 @@ defmodule EvieWeb.Router do
   scope "/", EvieWeb do
     pipe_through :browser
     get "/", PageController, :index
+    get "/dashboard", PageController, :dashboard
+    get "/page", PageController, :page
+    get "/auth", PageController, :auth
   end
 
   # Other scopes may use custom stacks.
